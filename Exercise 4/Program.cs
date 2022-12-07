@@ -38,5 +38,15 @@ namespace Exercise_4
             Console.WriteLine("\nThe popped element is: " + top.info);
             top = top.next; //Make top point to the next node in sequence
         }
+
+        public void push(int element)
+        {
+            Node fresh;
+            fresh = new Node(element, null);
+
+            fresh.next = top;
+            top = fresh;
+            Console.WriteLine("\n" + element + " pushed. ");
+        }
     }
 }

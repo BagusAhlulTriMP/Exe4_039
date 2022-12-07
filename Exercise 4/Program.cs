@@ -56,7 +56,12 @@ namespace Exercise_4
                 Console.WriteLine("\nBagus");
             else
             {
-
+                //Traverse the list from begginning till end
+                for (tmp = top; tmp != null; tmp = tmp.next)
+                {
+                    Console.WriteLine(tmp.info);
+                }
+                Console.WriteLine();
             }
         }
     }

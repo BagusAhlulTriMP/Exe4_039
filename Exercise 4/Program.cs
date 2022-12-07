@@ -48,5 +48,16 @@ namespace Exercise_4
             top = fresh;
             Console.WriteLine("\n" + element + " pushed. ");
         }
+
+        public void display()
+        {
+            Node tmp;
+            if (empty()) //if stack is empty
+                Console.WriteLine("\nBagus");
+            else
+            {
+
+            }
+        }
     }
 }
